@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "age": "20-22",
+        "picture": "https://media.istockphoto.com/photos/shot-of-a-group-of-friends-hanging-out-before-working-out-together-picture-id1366052585",
+        "time": 3000,
+        "intro": "",
+        "name": "Run"
+    },
+    {
+        "id": 2,
+        "age": "18-40",
+        "picture": "https://media.istockphoto.com/photos/swimmer-picture-id172339615?s=612x612",
+        "time": 5000,
+        "intro": "",
+        "name": "Swimming"
+    },
+    {
+        "id": 3,
+        "age": "15-35",
+        "picture": "https://media.istockphoto.com/id/1254996126/photo/beautiful-young-sports-lady-doing-push-ups-while-workout-at-home.webp?s=612x612&w=is&k=20&c=n4nvMlxSFkAjBaODIJxZs-ILkS5SRQjjXVj0_XIKgzM=",
+        "time": 6000,
+        "intro": "",
+        "name": "Push up"
+    },
+    {
+        "id": 4,
+        "age": "18-35",
+        "picture": "https://media.istockphoto.com/photos/get-your-body-in-balance-picture-id1195045259?s=612x612",
+        "time": 2500,
+        "intro": "",
+        "name": "Body balance"
+    },
+    {
+        "id": 5,
+        "age": "20-35",
+        "picture": "https://media.istockphoto.com/photos/young-brunette-woman-in-sportswear-practicing-yoga-asanas-performs-picture-id1292910814?s=612x612",
+        "time": 3600,
+        "intro": "",
+        "name": "Yoga"
+    },
+    {
+        "id": 6,
+        "age": "15-45",
+        "picture": "https://media.istockphoto.com/photos/gym-training-on-stationary-bikes-picture-id1127485222?s=612x612",
+        "time": 2400,
+        "intro": "",
+        "name": "Cyceling"
+    },
+    {
+        "id": 7,
+        "age": "12-35",
+        "picture": "https://media.istockphoto.com/photos/one-big-happy-family-picture-id1343203373?s=612x612",
+        "time": 3400,
+        "intro": "",
+        "name": "Footballing"
+    },
+    {
+        "id": 8,
+        "age": "20-40",
+        "picture": "https://media.istockphoto.com/id/185922048/photo/two-angry-brothers-fighting-eachother.webp?s=612x612&w=is&k=20&c=KQ1qkSXJuQqXDvzxLYjHpcc96El3ZhuxAlTyBcWVuQU=",
+        "time": 2800,
+        "intro": "",
+        "name": "Fighting"
+    },
+    {
+        "id": 9,
+        "age": "20-50",
+        "picture": "https://media.istockphoto.com/photos/senior-couple-smiling-while-walking-on-path-in-park-picture-id1265072224?s=612x612",
+        "time": 2900,
+        "intro": "",
+        "name": "Walking"
+    }
+]

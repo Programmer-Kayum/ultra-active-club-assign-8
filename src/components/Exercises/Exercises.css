@@ -1,0 +1,31 @@
+.Exercise-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+}
+
+.SummerysCart {
+    background-color: rgb(198, 193, 193);
+}
+
+.Data-Container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 104px;
+    margin-right: 82px;
+}
+
+
+.title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 104px;
+}
+
+.title h1 {
+    margin: 0;
+}
+
+.title h3 {
+    margin: 0;
+}

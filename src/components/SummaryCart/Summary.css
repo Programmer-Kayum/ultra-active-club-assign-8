@@ -1,0 +1,90 @@
+.myself p {
+    margin-top: 0;
+}
+
+.myself h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.summary-container {
+    padding: 30px 20px;
+    position: sticky;
+    top: 0;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border: 1px solid #95A0A7;
+    border-radius: 10px;
+
+
+}
+
+.info {
+    margin: 5px 10px;
+    width: 50px;
+    padding: 5px;
+    height: 50px;
+    height: 40px;
+}
+
+.info small {
+    margin-top: 0;
+}
+
+.info h3 {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.time {
+
+    width: 30px;
+    height: 20px;
+    padding: 5px;
+    background-color: gray;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.time h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.time:hover {
+    background-color: orange;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #95A0A7;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    height: 45px;
+}
+
+
+
+.activity-btn:hover {
+    background-color: orange;
+}
+
+
+.activity-btn {
+    width: 100%;
+    border: 1px solid #95A0A7;
+    border-radius: 15px;
+    margin-top: 50px;
+    height: 45px;
+}
