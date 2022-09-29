@@ -29,3 +29,12 @@
 .title h3 {
     margin: 0;
 }
+
+
+
+@media screen and (max-width :1000px) {
+    .Exercise-container {
+        display: grid;
+        grid-template-columns: (50% 50%);
+    }
+}

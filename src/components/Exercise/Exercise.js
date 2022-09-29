@@ -1,10 +1,10 @@
 import React from 'react';
+
 import './Exercise.css';
-const Exercise = (props) => {
+const Exercise = ({ exercise, handelAddToIteam }) => {
+    
 
-    console.log(props.exercise);
-
-    const { picture, age, name, time } = props.exercise;
+    const { picture, age, name, time } = exercise;
 
     return (
         <div className='data-container'>
@@ -16,7 +16,7 @@ const Exercise = (props) => {
                 <p>Time : {time}s</p>
             </div>
             <div>
-                <button className='btn'>
+                <button onClick={() => handelAddToIteam(exercise)} className='btn'>
                     <p>Add to Cart</p>
                 </button>
             </div>

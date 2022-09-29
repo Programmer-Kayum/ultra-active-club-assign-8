@@ -1,7 +1,7 @@
 .data-container {
     border: 1px solid #95A0A7;
     border-radius: 8px;
-    height: 410px;
+    height: 430px;
     width: 300px;
     margin-bottom: 20px;
     position: relative;
@@ -16,6 +16,7 @@
 
 .exercis-info {
     padding: 15px;
+
 }
 
 .exercis-info h2 {

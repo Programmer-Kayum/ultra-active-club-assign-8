@@ -5,6 +5,7 @@ import './Exercises.css';
 // import '../../../public/data.json';
 const Exercises = () => {
     const [exsercises, setExsercises] = useState([]);
+    const [iteam, setIteam] = useState([]);
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -13,6 +14,12 @@ const Exercises = () => {
 
 
 
+    const handelAddToIteam = (exercis) => {
+        // <Summary time={exercis}></Summary>
+        const newIteam = [...iteam, exercis];
+        setIteam(newIteam);
+
+    }
 
     return (
         <div className='Exercise-container'>
@@ -25,12 +32,16 @@ const Exercises = () => {
                     {
                         exsercises.map(exercise => <Exercise
                             exercise={exercise}
+                            key={exercise.id}
+                            handelAddToIteam={handelAddToIteam}
                         ></Exercise>)
                     }
                 </div>
             </div>
             <div className='SummerysCart'>
-                <Summary></Summary>
+
+                <Summary iteam={iteam}></Summary>
+
             </div>
         </div>
 

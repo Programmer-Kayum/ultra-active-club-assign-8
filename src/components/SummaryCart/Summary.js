@@ -1,8 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Summary.css';
-const Summary = () => {
+
+
+const Summary = (props) => {
+
+    const [breakTime, setBreakTime] = useState([])
+
+    const addBreakTime = (time) => {
+        setBreakTime(time);
+    }
+
+    const { iteam } = props
+    let totalTime = 0;
+    for (const time of iteam) {
+        totalTime = totalTime + time.time;
+    }
+
+
+
+
+
     return (
         <div className='summary-container'>
+
+
 
             <div className='myself'>
                 <h4>Mohammad Kayum Islam</h4>
@@ -31,19 +52,19 @@ const Summary = () => {
             <h3>Add A Break</h3>
             <div className='info-container'>
                 <div className='time'>
-                    <h5>80s</h5>
+                    <h5 onClick={() => addBreakTime(80)} >80s</h5>
                 </div>
                 <div className='time'>
-                    <h5>90s</h5>
+                    <h5 onClick={() => addBreakTime(90)}>90s</h5>
                 </div>
                 <div className='time'>
-                    <h5>50s</h5>
+                    <h5 onClick={() => addBreakTime(50)}>50s</h5>
                 </div>
                 <div className='time'>
-                    <h5>60s</h5>
+                    <h5 onClick={() => addBreakTime(60)}>60s</h5>
                 </div>
                 <div className='time'>
-                    <h5>45s</h5>
+                    <h5 onClick={() => addBreakTime(45)}>45s</h5>
                 </div>
             </div>
 
@@ -55,7 +76,7 @@ const Summary = () => {
                     <h5>Exercise time</h5>
                 </div>
                 <div>
-                    <h4>00 s</h4>
+                    <h4>{totalTime} s</h4>
                 </div>
             </div>
             <div className='details'>
@@ -63,7 +84,7 @@ const Summary = () => {
                     <h5>Break time</h5>
                 </div>
                 <div>
-                    <h4>00 s</h4>
+                    <h4> {breakTime} s</h4>
                 </div>
             </div>
 
