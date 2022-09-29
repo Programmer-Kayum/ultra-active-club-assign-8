@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Exercise from '../Exercise/Exercise';
+import Question from '../QuestionPart/Question';
 import Summary from '../SummaryCart/Summary';
 import './Exercises.css';
 // import '../../../public/data.json';
@@ -37,6 +38,8 @@ const Exercises = () => {
                         ></Exercise>)
                     }
                 </div>
+
+                <Question></Question>
             </div>
             <div className='SummerysCart'>
 

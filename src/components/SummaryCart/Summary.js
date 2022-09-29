@@ -4,11 +4,16 @@ import './Summary.css';
 
 const Summary = (props) => {
 
+
     const [breakTime, setBreakTime] = useState([])
 
     const addBreakTime = (time) => {
         setBreakTime(time);
     }
+
+
+
+
 
     const { iteam } = props
     let totalTime = 0;
