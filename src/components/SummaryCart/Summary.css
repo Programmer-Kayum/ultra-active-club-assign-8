@@ -7,7 +7,6 @@
     margin-bottom: 0;
 }
 
-
 .summary-container {
     padding: 30px 20px;
     position: sticky;
@@ -71,20 +70,5 @@
     background-color: aliceblue;
     border-radius: 15px;
     margin-bottom: 10px;
-    height: 45px;
-}
-
-
-
-.activity-btn:hover {
-    background-color: orange;
-}
-
-
-.activity-btn {
-    width: 100%;
-    border: 1px solid #95A0A7;
-    border-radius: 15px;
-    margin-top: 50px;
     height: 45px;
 }

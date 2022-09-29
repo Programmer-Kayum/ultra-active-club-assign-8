@@ -4,7 +4,6 @@
 
 }
 
-
 .icon {
     margin-right: 10px;
     height: 50px;
@@ -32,11 +31,34 @@
     margin-right: 82px;
 }
 
-
 .title h1 {
     margin: 0;
 }
 
 .title h3 {
     margin: 0;
+}
+
+/* responsive section  */
+
+@media screen and (max-width: 767px) {
+
+    .Exercise-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Data-Container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .Data-Container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }

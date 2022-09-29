@@ -3,9 +3,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './ToastCart.css';
 
-
-
-
 const ToastCart = () => {
     const showToast = () => {
         toast('Congratulation to complete your Exercise !!', {
@@ -18,8 +15,6 @@ const ToastCart = () => {
             progress: undefined,
         })
     }
-
-
 
     return (
         <div className='toast'>
