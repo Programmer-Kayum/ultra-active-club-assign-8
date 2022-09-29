@@ -15,14 +15,14 @@ const Summary = (props) => {
         if (previousTime) {
             setBreakTime(previousTime)
         }
-    }, [])
-
+    }, []);
 
     const { iteam } = props
     let totalTime = 0;
     for (const time of iteam) {
         totalTime = totalTime + time.time;
     }
+
     return (
         <div className='summary-container'>
 
@@ -73,20 +73,25 @@ const Summary = (props) => {
 
             <h3>Exercise Details</h3>
             <div className='details'>
+
                 <div>
                     <h5>Exercise time</h5>
                 </div>
                 <div>
                     <h4>{totalTime} s</h4>
                 </div>
+
             </div>
+
             <div className='details'>
+
                 <div>
                     <h5>Break time</h5>
                 </div>
                 <div>
                     <h4> {breakTime} s</h4>
                 </div>
+
             </div>
 
 

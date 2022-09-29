@@ -4,6 +4,7 @@ import './Question.css';
 const Question = () => {
     return (
         <div className='question-container'>
+
             <div className='question-anser'>
                 <h1>Q.1 : How does React work ?</h1>
                 <hr />
