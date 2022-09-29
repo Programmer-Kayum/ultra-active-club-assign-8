@@ -22,7 +22,7 @@ const ToastCart = () => {
 
 
     return (
-        <div>
+        <div className='toast'>
             <button onClick={() => showToast()} className='activity-btn'>
 
                 <h3>Activity Completed</h3>
