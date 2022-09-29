@@ -23,15 +23,8 @@ const Summary = (props) => {
     for (const time of iteam) {
         totalTime = totalTime + time.time;
     }
-
-
-
-
-
     return (
         <div className='summary-container'>
-
-
 
             <div className='myself'>
                 <h4>Mohammad Kayum Islam</h4>

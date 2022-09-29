@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons'
 import Exercise from '../Exercise/Exercise';
 import Question from '../QuestionPart/Question';
 import Summary from '../SummaryCart/Summary';
@@ -18,7 +18,6 @@ const Exercises = () => {
 
 
     const handelAddToIteam = (exercis) => {
-        // <Summary time={exercis}></Summary>
         const newIteam = [...iteam, exercis];
         setIteam(newIteam);
 
@@ -32,7 +31,7 @@ const Exercises = () => {
                 <div className='title-container' >
 
                     <div>
-                        <FontAwesomeIcon icon={faCoffee}> </FontAwesomeIcon>
+                        <FontAwesomeIcon className='icon' icon={faDumbbell}> </FontAwesomeIcon>
                     </div>
                     <div className='title'>
                         <h1>edX Physical Tips</h1>
