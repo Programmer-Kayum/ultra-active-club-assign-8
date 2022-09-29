@@ -4,6 +4,26 @@
 
 }
 
+
+@media screen and (max-width :700px) {
+    .Exercise-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 104px;
+}
+
 .SummerysCart {
     background-color: rgb(198, 193, 193);
 }
@@ -15,12 +35,18 @@
     margin-right: 82px;
 }
 
-
-.title {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 104px;
+@media screen and (max-width :600px) {
+    .Data-Container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
+
+
+
+
+
+
 
 .title h1 {
     margin: 0;
@@ -28,13 +54,4 @@
 
 .title h3 {
     margin: 0;
-}
-
-
-
-@media screen and (max-width :1000px) {
-    .Exercise-container {
-        display: grid;
-        grid-template-columns: (50% 50%);
-    }
 }

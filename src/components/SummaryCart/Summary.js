@@ -1,18 +1,21 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Summary.css';
 
 
 const Summary = (props) => {
 
-
     const [breakTime, setBreakTime] = useState([])
-
     const addBreakTime = (time) => {
         setBreakTime(time);
+        localStorage.setItem('time', time);
     }
 
-
-
+    useEffect(() => {
+        const previousTime = localStorage.getItem('time')
+        if (previousTime) {
+            setBreakTime(previousTime)
+        }
+    }, [])
 
 
     const { iteam } = props

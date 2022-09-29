@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import Exercise from '../Exercise/Exercise';
 import Question from '../QuestionPart/Question';
 import Summary from '../SummaryCart/Summary';
@@ -25,9 +27,20 @@ const Exercises = () => {
     return (
         <div className='Exercise-container'>
             <div>
-                <div className='title'>
-                    <h1>edX Physical Tips</h1>
-                    <h3>Select today's exercise</h3>
+
+
+                <div className='title-container' >
+
+                    <div>
+                        <FontAwesomeIcon icon={faCoffee}> </FontAwesomeIcon>
+                    </div>
+                    <div className='title'>
+                        <h1>edX Physical Tips</h1>
+                        <h3>Select today's exercise</h3>
+                    </div>
+
+
+
                 </div>
                 <div className='Data-Container'>
                     {
