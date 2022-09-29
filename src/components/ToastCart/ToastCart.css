@@ -1,0 +1,12 @@
+.activity-btn:hover {
+    background-color: orange;
+}
+
+
+.activity-btn {
+    width: 100%;
+    border: 1px solid #95A0A7;
+    border-radius: 15px;
+    margin-top: 50px;
+    height: 45px;
+}

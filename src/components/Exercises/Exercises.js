@@ -5,6 +5,7 @@ import Exercise from '../Exercise/Exercise';
 import Question from '../QuestionPart/Question';
 import Summary from '../SummaryCart/Summary';
 import './Exercises.css';
+import ToastCart from '../ToastCart/ToastCart';
 
 
 
@@ -53,6 +54,7 @@ const Exercises = () => {
             </div>
             <div className='SummerysCart'>
                 <Summary iteam={iteam}></Summary>
+                <ToastCart></ToastCart>
             </div>
         </div>
     );

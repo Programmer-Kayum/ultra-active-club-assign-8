@@ -93,12 +93,6 @@ const Summary = (props) => {
                 </div>
 
             </div>
-
-
-            <button className='activity-btn'>
-                <h3>Activity Completed</h3>
-            </button>
-
         </div>
     );
 };
